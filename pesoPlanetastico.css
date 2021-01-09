@@ -1,0 +1,29 @@
+body{
+    background: darkcyan;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1   {
+  color: white;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 50px;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-shadow: 1px 1px 5px black;
+}
+
+p {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.pesoFinal{
+  margin-top: 80px;
+  font-size: 40px;
+  font-family: 'Lato ';
+}
