@@ -33,8 +33,8 @@ else if(planeta == 3)
 //si no pone ningunas de esas opciones le bromeamos un poco
 else
 {
-  peso_final = 10000000000;
-  nombre = " el universo";
+  peso_final = 110;
+  nombre = "la tierra";
 }
 peso_final = parseInt (peso_final);
 document.write("<p class=pesoFinal >Tu peso en " + nombre + " es de <strong>" + peso_final + " kilos</strong></p>");
