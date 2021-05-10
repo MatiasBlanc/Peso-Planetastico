@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  animation: rainbow 20s linear infinite;
+}
+
+.container {
+  max-width: 72rem;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 5rem 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  color: white;
+  font-family: "Helvetica";
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.planet-calc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.pesoFinal {
+  margin-top: 80px;
+  font-size: 40px;
+  font-family: "Lato";
+}
+
+@keyframes rainbow {
+  0%,
+  100% {
+    background: #ec3b3b;
+  }
+  14% {
+    background: #f7b946;
+  }
+  42% {
+    background: #f8f847;
+  }
+  56% {
+    background: #22be22;
+  }
+  70% {
+    background: #3e3ef5;
+  }
+  84% {
+    background: #a64ae7;
+  }
+}
