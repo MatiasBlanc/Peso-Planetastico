@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tu peso en un lugar donde pesas menos</title>
     <!-- Vincular Css -->
-    <link rel="stylesheet" href="style.css">
     <!-- Fonts Family -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-</head>
-<body>
-  <h1><b>TU PESO EN OTROS PLANETAS</b></h1>
-  <p>En la tierra pesas distinto que en estos planetas</p>
-  <script src="app.js"></script>
-</body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1 class="title">TU PESO EN OTROS PLANETAS</h1>
+        <p class="description">
+          En la tierra pesas distinto que en estos planetas
+        </p>
+      </header>
+      <section class="planet-calc">
+        <form id="planetForm">
+          <select id="planetInput">
+            <option value="mars">Marte</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="venus">Venus</option>
+          </select>
+          <input
+            id="weightInput"
+            type="text"
+            placeholder="Escribe tu peso en Kg"
+          />
+          <button>Calcular</button>
+        </form>
+        <h2 id="result"></h2>
+      </section>
+    </main>
+    <script src="./src/app.js"></script>
+  </body>
 </html>
