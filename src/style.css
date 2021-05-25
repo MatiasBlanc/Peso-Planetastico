@@ -41,6 +41,10 @@ body {
   font-family: "Lato";
 }
 
+#result {
+  color: #000;
+}
+
 @keyframes rainbow {
   0%,
   100% {
