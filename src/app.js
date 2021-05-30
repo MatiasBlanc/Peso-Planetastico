@@ -21,7 +21,7 @@ const app = () => {
     const [gravity, , planetName] = planet[planetInput.value];
     const planetWeight = calcWeight(weight, gravity);
 
-    resultWeight.innerHTML = `Tu peso en ${planetName} es ${planetWeight} `;
+    resultWeight.innerHTML = `Tu peso en ${planetName} es ${planetWeight} kg `;
   });
 };
 
